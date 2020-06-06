@@ -15,7 +15,7 @@ class About extends Component {
                                     <h2 className="t_color">{alekData.aboutme}</h2>
                                     <p>{alekData.aboutdetails}</p>
                                     <a
-                                    href="https://bit.ly/aseawright_resume"
+                                    href="https://bit.ly/seawright-alek-resume"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="theme_btn"
