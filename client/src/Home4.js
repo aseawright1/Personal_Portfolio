@@ -12,10 +12,10 @@ import Skill from './component/Skill/Skill';
 import Footer from './component/Footer';
 import alekData from './component/alekData';
 
-// require('../../image/Sail-Away.jpg') 
+// require('../../image/Sail-Away.png') 
 export const Home4 = () => (
   <div className="body_wrapper">
-      <Navbar mContainer="custome_container" mainlogo="logo2.jpg" stickylogo="logo.jpg"/>  
+      <Navbar mContainer="custome_container" mainlogo="logo2.png" stickylogo="logo.png"/>  
       <RBanner alekData={alekData} imag="Sail-Away.jpg"/>
       <About aClass="about_area" alekData={alekData}/> 
       <Service wClass="work_area" alekData={alekData}/>

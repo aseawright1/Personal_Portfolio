@@ -16,7 +16,7 @@ import alekData from './component/alekData';
 
 export const Home3 = () => (
   <div className="body_wrapper">
-      <Navbar mClass="dark_menu" mContainer="custome_container" mainlogo="logo2.jpg" stickylogo="logo.jpg"/>
+      <Navbar mClass="dark_menu" mContainer="custome_container" mainlogo="logo2.png" stickylogo="logo.png"/>
       <ParticlesBanner alekData={alekData}/>
       <About aClass='about_area bg_color' alekData={alekData}/>
       <Service wClass="work_area_two" alekData={alekData}/>

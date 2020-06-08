@@ -9,7 +9,7 @@ class Footer extends Component{
                 <div className="container">
                     <div className="footer-content">
                         <Link to="/" className="logo wow fadeInDown" data-wow-delay="0.4s">
-                            <img src={require('../image/logo2.jpg')} alt=""/>
+                            <img src={require('../image/logo2.png')} alt=""/>
                         </Link>
                         <Fade top cascade>
                             <ul className="list_style">

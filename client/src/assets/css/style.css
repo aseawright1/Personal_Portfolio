@@ -44,6 +44,23 @@ Table of Content:
     margin-right: 8.33333333%;
 }
 
+@font-face {
+    src: url(../../assets/fonts/AlphaCentauri.ttf);
+    font-family: AlphaCentauri;
+}
+
+@font-face {
+    src: url(../../assets/fonts/JosefinSansRegular.ttf);
+    font-family: JSReg;
+}
+
+@font-face {
+    src: url(../../assets/fonts/LemonMilkLight.otf);
+    font-family: LemonMilk;
+}
+
+
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list_style {
@@ -246,7 +263,8 @@ h6 {
 }
 
 .navbar-brand {
-    max-width: 4em;
+    max-width: 6em;
+    padding: 0
 }
 
 .footer-content > a {
@@ -560,8 +578,12 @@ h6 {
 
 .banner_content h2 {
     margin: 10px 0px;
-    font-size: 55px;
-    font-weight: 700;
+    font-size: 6em;
+    /* font-weight: 100; */
+    font-family: AlphaCentauri;
+    /* font-family: LemonMilk; */
+    /* font-family: JSReg; */
+    font-variant: small-caps;
 }
 
 .banner_content h4 {
@@ -1567,21 +1589,19 @@ h6 {
 .footer-area {
     background: #040c2c;
     position: relative;
-    padding: 60px 0px 60px;
-}
-
-.footer-content {
+    padding: 30px 0px 30px;
     text-align: center;
 }
 
-.footer-content .logo {
-    display: inline-block;
-    margin-bottom: 30px;
+.footer-content {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-content .logo img {
-    max-width: 100%;
-    border-radius: 10px;
+    width: 20em;
+    margin-left: 0px;
+    text-align: center;
 }
 
 .footer-content ul li {
