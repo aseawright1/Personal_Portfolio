@@ -755,6 +755,10 @@ h6 {
     display: inline-block;
 }
 
+.work_item p {
+    color: #040c2c
+}
+
 .work_item h2 {
     font-size: 20px;
     line-height: 30px;

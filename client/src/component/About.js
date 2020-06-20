@@ -13,7 +13,7 @@ class About extends Component {
                             <Fade bottom cascade duration={1000}>
                                 <div className="about_content">
                                     <h2 className="t_color">{alekData.aboutme}</h2>
-                                    <p>{alekData.aboutdetails}</p>
+                                    <p>{alekData.aboutdetails1} <br/><br/> {alekData.aboutdetails2} </p>
                                     <a
                                     href="https://bit.ly/alekseawright-resume"
                                     target="_blank"

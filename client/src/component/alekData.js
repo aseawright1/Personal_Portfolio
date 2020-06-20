@@ -28,7 +28,8 @@ const alekData = {
     },
   ],
   "aboutme": "About Me",
-  "aboutdetails": "I'm an engineer currently working in the microelectronics manufacturing sector for a major government contractor. Acquired my BS in Electrical Engineering and currently pursuing an MS in Engineering Management. Also knowledgeable in full-stack web technologies and progressive web applications. Well-known in my current role as an effective communicator, mentor, and very perseverant when it comes to solving unique problems. I enjoy learning new skills, developing new technologies, and can leverage these traits to add value to any cross-functional team.",
+  "aboutdetails1": "I'm an engineer currently working in the microelectronics manufacturing sector for a major government contractor. I've acquired my BS in Electrical Engineering and am currently pursuing an MS in Engineering Management. I'm knowledgeable in full-stack web technologies, creating progressive web applications, and am starting to delve into the field of AI and machine learning.",
+  "aboutdetails2": "Well-known in my current role as an effective communicator, mentor, and very perseverant when it comes to solving unique problems. I enjoy learning new skills, developing new technologies, and can leverage these traits to add value to any cross-functional team.",
   "service": [
     {
       "id": 1,

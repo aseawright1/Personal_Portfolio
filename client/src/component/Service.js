@@ -16,13 +16,15 @@ class Service extends Component {
                                 alekData.service && alekData.service.map(item => {
                                     return (
                                         <div className="col-lg-4 col-sm-6" key={item.id}>
-                                            <div className="work_item wow fadeInUp" data-wow-delay="0.1s">
-                                                <img src={item.src} alt={item.alt} href={item.link} className="service_img" />
-                                                <a href={item.link} target="_blank" rel="noopener noreferrer">
-                                                    <h2 className="t_color">{item.title}</h2>
-                                                </a>
-                                                <p href={item.link}>{item.details}</p>
-                                            </div>
+                                            <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                                <div className="work_item wow fadeInUp" data-wow-delay="0.1s">
+                                                    <img src={item.src} alt={item.alt} href={item.link} className="service_img" />
+                                                    {/* <a href={item.link} target="_blank" rel="noopener noreferrer"> */}
+                                                        <h2 className="t_color">{item.title}</h2>
+                                                    {/* </a> */}
+                                                    <p href={item.link}>{item.details}</p>
+                                                </div>
+                                            </a>
                                         </div>
                                     )
                                 }
