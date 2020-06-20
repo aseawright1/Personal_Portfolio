@@ -1,16 +1,16 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Reveal from 'react-reveal/Reveal/';
 
 class Contact extends Component {
-    render(){
+    render() {
         let alekData = this.props.alekData;
-        return(
+        return (
             <section className="contact-area" id="contact">
                 <div className="container">
                     <div className="row row-reverse">
                         {
-                            alekData.contact && alekData.contact.map(item =>{
-                            return(
+                            alekData.contact && alekData.contact.map(item => {
+                                return (
                                     <React.Fragment key={item.id}>
                                         <div className="col-md-12">
                                             <Reveal effect="fadeInLeft" duration={500}>
@@ -18,15 +18,20 @@ class Contact extends Component {
                                                     <h4>{item.title}</h4>
                                                     <ul className="nav">
                                                         {
-                                                            item.menuItems.map(info =>{
-                                                                return(
+                                                            item.menuItems.map(info => {
+                                                                return (
                                                                     <li className="item" key={info.id}>
                                                                         <div className="media">
-                                                                            <a href={item.link}>
+                                                                            {/* <a href={item.link}>
+                                                                                <i className={info.icon}></i>
+                                                                            </a> */}
+
+                                                                            <a href={item.link} target="_blank" rel="noopener noreferrer">
                                                                                 <i className={info.icon}></i>
                                                                             </a>
+
                                                                             <div className="media-body">
-                                                                                <a href={item.link}>{info.text}</a> 
+                                                                                <a href={item.link}>{info.text}</a>
                                                                             </div>
                                                                         </div>
                                                                     </li>
@@ -38,8 +43,8 @@ class Contact extends Component {
                                             </Reveal>
                                         </div>
                                     </React.Fragment>
-                                    )
-                                }
+                                )
+                            }
                             )
                         }
                         {/* <div className="col-md-7">

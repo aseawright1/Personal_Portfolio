@@ -26,7 +26,7 @@ class NavbarTwo extends Component{
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="service" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Favorite Tech
+                                        Favorite Tools
                                     </Link>
                                 </li>
                                 {/* <li className="nav-item">

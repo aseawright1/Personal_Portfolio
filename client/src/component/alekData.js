@@ -48,11 +48,11 @@ const alekData = {
     },
     {
       "id": 3,
-      "src": require('../image/icon-git.png'),
-      "alt": "icon-git",
-      "title": "Git",
-      "link": "https://git-scm.com/",
-      "details": "Git has been an integral part of all of my work to date for its version control methods and standardization when working on collaborative projects."
+      "src": require('../image/icon-tensorflow.png'),
+      "alt": "icon-tensorflow",
+      "title": "TensorFlow",
+      "link": "https://www.tensorflow.org/",
+      "details": "My favorite open source library since venturing into machine learning tech. Utilizing its dataflow graphs has reduced my learning curve and helped with a general understanding of neural networks."
     },
     {
       "id": 4,
@@ -94,13 +94,13 @@ const alekData = {
           id: 2,
           icon: 'icon_phone',
           text: 'Phone: +1 (318) 290-9089',
-          link: "window.open('tel:3182909089')"
+          link: 'tel:+3182909089'
         },
         {
           id: 3,
           icon: 'icon_mail',
           text: 'Email: alek.seawright@gmail.com',
-          link: 'alek.seawright@gmail.com'
+          link: 'mailto:alek.seawright@gmail.com'
         },
       ]
     },
