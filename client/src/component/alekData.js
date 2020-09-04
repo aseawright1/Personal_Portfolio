@@ -41,11 +41,11 @@ const alekData = {
     },
     {
       "id": 2,
-      "src": require('../image/icon-node.png'),
-      "alt": "icon-node",
-      "title": "Node.js",
-      "link": "https://nodejs.org/en/",
-      "details": "My preferred server side scripting language. Node's non-blocking I/O system allows for processing several requests concurrently, and being full stack JavaScript makes for fluid and efficient backend development."
+      "src": require('../image/icon-python.png'),
+      "alt": "icon-python",
+      "title": "Python",
+      "link": "https://www.python.org/",
+      "details": "The preferred language for machine learning applications, I find Python to be extremely intuitive and readable. Perfect for manipulating large amounts of data and building scalable models."
     },
     {
       "id": 3,
